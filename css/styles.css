@@ -1,0 +1,61 @@
+body{
+    padding-top: 50px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    margin-right: 10px;
+}
+.icono{
+    margin-right: 5px;
+}
+.contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+.titulo{
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+.row{
+    margin-top: 50px;
+}
+.acciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+select{
+    cursor: pointer;
+}
+.entrada-codigo{
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 90%;
+    height: 200px;
+}
+div#resultado{
+    display: none;
+}
+.table{
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+
+.a-file{
+    cursor: pointer;
+}
+
+input#abrir {
+    display: none;
+}
